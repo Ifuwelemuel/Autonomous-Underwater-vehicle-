@@ -108,7 +108,7 @@ void loop() {
 
   readSensors();
   readSerialCommand();
-  printDebugData();
+  printDebugData();//code for debug
   servoPitch.write(cmd.targetPitch); 
   servoYaw.write(cmd.targetYaw);
   servoThruster.writeMicroseconds(cmd.manualThrottle); 
@@ -159,20 +159,21 @@ void readSensors() {
     Serial.print(mpu.getAccZ() * 9.806); Serial.print(",");
     Serial.print(mpu.getGyroX() * DEG_TO_RAD); Serial.print(",");
     Serial.print(mpu.getGyroY() * DEG_TO_RAD); Serial.print(",");
-    Serial.println(mpu.getGyroZ() * DEG_TO_RAD); 
-    
+    Serial.println(mpu.getGyroZ() * DEG_TO_RAD);
+
     lastMpuPrint = now;
   }
+
 }
 
 
 // 1. Add this function to print the received data cleanly
 void printDebugData() {
-  Serial.println("--- COMMAND RECEIVED ---");
-  Serial.print(" | Pitch: ");  Serial.print(cmd.targetPitch);
-  Serial.print(" | Yaw: ");    Serial.print(cmd.targetYaw);
-  Serial.print(" | Thruster: "); Serial.print(cmd.manualThrottle);
-  Serial.print(" | Ballast: ");  Serial.println(cmd.ballastRequest);
+  // Format: Pitch,Yaw,Thruster,Ballast
+  Serial.print(cmd.targetPitch); Serial.print(",");
+  Serial.print(cmd.targetYaw); Serial.print(",");
+  Serial.print(cmd.manualThrottle); Serial.print(",");
+  Serial.println(cmd.ballastRequest);
 }
 
 void readSerialCommand() {
