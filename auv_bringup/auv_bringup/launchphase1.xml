@@ -1,0 +1,13 @@
+<launch>
+    <node pkg="joy" exec="joy_node"  output="screen">
+        </node>
+    <node pkg="auv_control" exec="auv_control_node"  output="screen">
+        </node>
+
+    <node pkg="auv_teleop" exec="auv_teleop_node"  output="screen">
+        </node>
+
+    <node pkg="serial_bridge" exec="arduino_bridge"  output="screen">
+        </node>
+
+</launch>
