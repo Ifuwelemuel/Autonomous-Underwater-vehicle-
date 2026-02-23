@@ -108,6 +108,7 @@ void loop() {
 
   readSensors();
   readSerialCommand();
+  printDebugData();
   servoPitch.write(cmd.targetPitch); 
   servoYaw.write(cmd.targetYaw);
   servoThruster.writeMicroseconds(cmd.manualThrottle); 
@@ -228,5 +229,5 @@ void readSerialCommand() {
   cmd.manualThrottle = constrain(cmd.manualThrottle, 1100, 1900);
   cmd.ballastRequest = (cmd.ballastRequest != 0) ? 1 : 0;
 
-  printDebugData();
+  //printDebugData();
 }
