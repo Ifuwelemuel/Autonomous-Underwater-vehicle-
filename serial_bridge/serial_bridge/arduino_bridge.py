@@ -39,7 +39,11 @@ class ArduinoSerialBridge(Node):
         self.create_subscription(Float32MultiArray, '/servo_angles', self.servo_callback, 10)
         self.create_subscription(Float32MultiArray, '/thruster_command', self.thruster_callback, 10)
         ##imu pub
-        self.publisher_ = self.create_publisher(Imu, 'imu/data_raw', 10)
+        self.imu_publisher_ = self.create_publisher(Imu, 'imu/data_raw', 10)
+        
+        ##confirmation of commands from arduino---
+        self.echo_pub_ = self.create_publisher(Float32MultiArray, '/arduino/echo_command', 10)
+        
         
         self.get_logger().info("Serial Bridge listening for /servo_angles and /thruster_command...")
         
@@ -142,42 +146,45 @@ class ArduinoSerialBridge(Node):
         try:
             # Read all available lines currently in the buffer
             while self.serial_port.in_waiting > 0:
-               # response = self.serial_port.readline().decode('ascii', errors='ignore').strip()
-               # if response:
-                #    self.get_logger().info(f"Serial RX <- {response}")
-                # Read line and decode
                 line = self.serial_port.readline().decode('utf-8').strip()
                 data = line.split(',')
                 
-                # Check if it's a valid IMU line (should have 6 values)
+                # Check if it's a valid IMU line (6 values)
                 if len(data) == 6:
                     msg = Imu()
-                    
-                    # Fill Header
                     msg.header.stamp = self.get_clock().now().to_msg()
-                    msg.header.frame_id = "imu_link" # Matches your URDF
+                    msg.header.frame_id = "imu_link" 
                     
-                    # Fill Linear Acceleration (m/s^2)
                     msg.linear_acceleration.x = float(data[0])
                     msg.linear_acceleration.y = float(data[1])
                     msg.linear_acceleration.z = float(data[2])
-                    
-                    # Fill Angular Velocity (rad/s)
                     msg.angular_velocity.x = float(data[3])
                     msg.angular_velocity.y = float(data[4])
                     msg.angular_velocity.z = float(data[5])
-                    
-                    # Orientation: MPU6050 doesn't give quaternions by default.
-                    # Standard practice: set the first element of covariance to -1
-                    # to tell ROS "this message has no orientation data".
                     msg.orientation_covariance[0] = -1.0
-                    #self.get_logger().info(f"received: {self.manual_throttle}\n")
-                    self.publisher_.publish(msg)
-                    #self.get_logger().info(f"received: {msg}\n")
+                    
+                    self.imu_publisher_.publish(msg)
+
+                # Check if it's an Echo line (4 values)
+                elif len(data) == 4:
+                    try:
+                        echo_msg = Float32MultiArray()
+                        # data[0]=Pitch, data[1]=Yaw, data[2]=Thruster, data[3]=Ballast
+                        echo_msg.data = [
+                            float(data[0]),
+                            float(data[1]),
+                            float(data[2]),
+                            float(data[3])
+                        ]
+                        self.echo_pub_.publish(echo_msg)
+                    except ValueError:
+                        # Ignore if conversion to float fails due to serial noise
+                        pass
+                        
         except serial.SerialException as e:
             self._handle_serial_disconnect("Serial read failed", e)
         except Exception as e:
-            self.get_logger().warn(f"Serial read error: {e}")            
+            self.get_logger().warn(f"Serial read error: {e}")        
                 
                 
                 
