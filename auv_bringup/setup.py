@@ -1,3 +1,5 @@
+import os
+from glob import glob
 from setuptools import find_packages, setup
 
 package_name = 'auv_bringup'
@@ -10,21 +12,17 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*'))),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='raspberry',
-    maintainer_email='ifuwelemuel123@gmail.com',
+    maintainer_email='raspberry@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
-    extras_require={
-        'test': [
-            'pytest',
-        ],
-    },
+    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'launchphase1 = auv_bringup.launch:main'
         ],
     },
 )
