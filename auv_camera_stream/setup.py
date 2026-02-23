@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'Auv_control'
+package_name = 'auv_camera_stream'
 
 setup(
     name=package_name,
@@ -14,7 +14,7 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='raspberry',
-    maintainer_email='raspberry@todo.todo',
+    maintainer_email='ifuwelemuel123@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     extras_require={
@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'heading_controller = Auv_control.heading_controller:main'
+            'camera_node = auv_camera_stream.stream_node:main',
         ],
     },
 )

@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'serial_bridge'
+package_name = 'auv_control'
 
 setup(
     name=package_name,
@@ -24,8 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'arduino_bridge = serial_bridge.arduino_bridge:main',
-            'imu_dashboard_adapter = serial_bridge.imu_dashboard_adapter:main',
+            'heading_controller = auv_control.heading_controller:main'
         ],
     },
 )

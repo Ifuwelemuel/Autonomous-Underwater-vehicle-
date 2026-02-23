@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'Auv_teleop'
+package_name = 'auv_teleop'
 
 setup(
     name=package_name,
@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'teleop_xbox_node = Auv_teleop.teleop_xbox_node:main',
+            'teleop_xbox_node = auv_teleop.teleop_xbox_node:main',
         ],
     },
 )
