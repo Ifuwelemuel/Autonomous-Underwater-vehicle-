@@ -1,0 +1,3 @@
+[console_scripts]
+heading_controller = auv_control.heading_controller:main
+

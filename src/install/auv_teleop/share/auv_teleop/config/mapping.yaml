@@ -1,0 +1,43 @@
+teleop_xbox_node:
+  ros__parameters:
+    # --- PROPORTIONAL CONTROL (Sticks) ---
+    # Left Stick Up/Down for Throttle (Pin 3)
+    axis_thruster: 1       
+    
+    # Right Stick Left/Right for Steering/Yaw (Pin 10)
+    axis_yaw: 3            
+    
+    # Right Stick Up/Down for Pitch (Pin 9)
+    axis_pitch: 4          
+
+    # --- BOOLEAN CONTROL (Buttons) ---
+    # Right Bumper (RB) to activate the Fill Pump (Pin 5)
+    button_pump_fill: 5    
+    
+    # Left Bumper (LB) to activate the Empty Pump (Pin 6)
+    button_pump_empty: 4   
+
+    # --- TUNING MULTIPLIERS ---
+    scale_thruster: 1.0    # 1.0 = 100% max motor speed
+    scale_yaw: 1.0         # Adjust if the servo turns too sharply
+    scale_pitch: 1.0       # Adjust if the pitch servo binds
+    deadzone: 0.1          # Ignore tiny stick movements
+
+xbox_node:
+  ros__parameters:
+    # Keep joystick mapping aligned with teleop_xbox_node
+    axis_thruster: 5
+    axis_yaw: 3
+    axis_pitch: 1
+    button_pump_fill: 4
+    button_pump_empty: 6
+
+    # DO_SET_SERVO settings.
+    # QGC: SERVO10_FUNCTION=0, SERVO11_FUNCTION=0 (disabled = direct control)
+    deadzone: 0.1
+    servo_pitch_channel: 9
+    servo_yaw_channel: 10
+    send_rate_hz: 10.0
+    pwm_min: 1200
+    pwm_max: 1800
+    pwm_center: 1500

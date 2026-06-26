@@ -1,0 +1,20 @@
+<launch>
+  <arg name="fcu_url" default="/dev/ttyACM0:57600" />
+  <arg name="gcs_url" default="" />
+  <arg name="namespace" default="mavros" />
+  <arg name="joy_dev" default="/dev/input/js0" />
+
+  <include file="$(find-pkg-share mavros)/launch/apm.launch">
+    <arg name="fcu_url" value="$(var fcu_url)" />
+    <arg name="gcs_url" value="$(var gcs_url)" />
+    <arg name="namespace" value="$(var namespace)" />
+  </include>
+
+  <node pkg="joy" exec="joy_node" output="screen">
+    <param name="dev" value="$(var joy_dev)" />
+  </node>
+
+  <node pkg="auv_teleop" exec="xbox_node" output="screen">
+    <param from="$(find-pkg-share auv_teleop)/config/mapping.yaml" />
+  </node>
+</launch>

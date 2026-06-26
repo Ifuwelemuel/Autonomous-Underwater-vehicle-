@@ -1,0 +1,3 @@
+[console_scripts]
+camera_node = auv_camera_stream.stream_node:main
+

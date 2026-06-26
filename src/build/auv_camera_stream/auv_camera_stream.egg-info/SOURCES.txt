@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/auv_camera_stream/auv_camera_stream.egg-info/PKG-INFO
+../build/auv_camera_stream/auv_camera_stream.egg-info/SOURCES.txt
+../build/auv_camera_stream/auv_camera_stream.egg-info/dependency_links.txt
+../build/auv_camera_stream/auv_camera_stream.egg-info/entry_points.txt
+../build/auv_camera_stream/auv_camera_stream.egg-info/requires.txt
+../build/auv_camera_stream/auv_camera_stream.egg-info/top_level.txt
+../build/auv_camera_stream/auv_camera_stream.egg-info/zip-safe
+auv_camera_stream/__init__.py
+auv_camera_stream/stream_node.py
+resource/auv_camera_stream
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,17 @@
+<launch>
+    <node pkg="joy" exec="joy_node"  output="screen">
+        </node>
+    <node pkg="auv_control" exec="heading_controller"  output="log">
+        </node>
+
+    <node pkg="auv_teleop" exec="teleop_xbox_node"  output="log">
+        </node>
+
+    <node pkg="serial_bridge" exec="arduino_bridge"  output="log">
+        </node>
+    <node pkg="serial_bridge" exec="imu_dashboard_adapter"  output="screen">
+        </node>
+    
+    <include file="$(find-pkg-share foxglove_bridge)/launch/foxglove_bridge_launch.xml" />
+
+</launch>

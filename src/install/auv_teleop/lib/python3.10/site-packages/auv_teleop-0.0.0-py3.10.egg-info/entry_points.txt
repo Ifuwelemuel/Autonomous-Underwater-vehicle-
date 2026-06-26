@@ -1,0 +1,4 @@
+[console_scripts]
+teleop_xbox_node = auv_teleop.teleop_xbox_node:main
+xbox_node = auv_teleop.xbox_node:main
+

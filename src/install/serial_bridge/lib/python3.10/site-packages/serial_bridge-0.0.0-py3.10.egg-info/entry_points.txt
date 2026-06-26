@@ -1,0 +1,4 @@
+[console_scripts]
+arduino_bridge = serial_bridge.arduino_bridge:main
+imu_dashboard_adapter = serial_bridge.imu_dashboard_adapter:main
+

@@ -1,0 +1,42 @@
+running egg_info
+creating ../build/serial_bridge/serial_bridge.egg-info
+writing ../build/serial_bridge/serial_bridge.egg-info/PKG-INFO
+writing dependency_links to ../build/serial_bridge/serial_bridge.egg-info/dependency_links.txt
+writing entry points to ../build/serial_bridge/serial_bridge.egg-info/entry_points.txt
+writing requirements to ../build/serial_bridge/serial_bridge.egg-info/requires.txt
+writing top-level names to ../build/serial_bridge/serial_bridge.egg-info/top_level.txt
+writing manifest file '../build/serial_bridge/serial_bridge.egg-info/SOURCES.txt'
+reading manifest file '../build/serial_bridge/serial_bridge.egg-info/SOURCES.txt'
+writing manifest file '../build/serial_bridge/serial_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/raspberry/Auv_ws/src/build/serial_bridge/build
+creating /home/raspberry/Auv_ws/src/build/serial_bridge/build/lib
+creating /home/raspberry/Auv_ws/src/build/serial_bridge/build/lib/serial_bridge
+copying serial_bridge/__init__.py -> /home/raspberry/Auv_ws/src/build/serial_bridge/build/lib/serial_bridge
+copying serial_bridge/arduino_bridge.py -> /home/raspberry/Auv_ws/src/build/serial_bridge/build/lib/serial_bridge
+copying serial_bridge/imu_dashboard_adapter.py -> /home/raspberry/Auv_ws/src/build/serial_bridge/build/lib/serial_bridge
+copying serial_bridge/pikhawk_bridge.py -> /home/raspberry/Auv_ws/src/build/serial_bridge/build/lib/serial_bridge
+running install
+running install_lib
+creating /home/raspberry/Auv_ws/src/install/serial_bridge/lib/python3.10/site-packages/serial_bridge
+copying /home/raspberry/Auv_ws/src/build/serial_bridge/build/lib/serial_bridge/__init__.py -> /home/raspberry/Auv_ws/src/install/serial_bridge/lib/python3.10/site-packages/serial_bridge
+copying /home/raspberry/Auv_ws/src/build/serial_bridge/build/lib/serial_bridge/arduino_bridge.py -> /home/raspberry/Auv_ws/src/install/serial_bridge/lib/python3.10/site-packages/serial_bridge
+copying /home/raspberry/Auv_ws/src/build/serial_bridge/build/lib/serial_bridge/imu_dashboard_adapter.py -> /home/raspberry/Auv_ws/src/install/serial_bridge/lib/python3.10/site-packages/serial_bridge
+copying /home/raspberry/Auv_ws/src/build/serial_bridge/build/lib/serial_bridge/pikhawk_bridge.py -> /home/raspberry/Auv_ws/src/install/serial_bridge/lib/python3.10/site-packages/serial_bridge
+byte-compiling /home/raspberry/Auv_ws/src/install/serial_bridge/lib/python3.10/site-packages/serial_bridge/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/raspberry/Auv_ws/src/install/serial_bridge/lib/python3.10/site-packages/serial_bridge/arduino_bridge.py to arduino_bridge.cpython-310.pyc
+byte-compiling /home/raspberry/Auv_ws/src/install/serial_bridge/lib/python3.10/site-packages/serial_bridge/imu_dashboard_adapter.py to imu_dashboard_adapter.cpython-310.pyc
+byte-compiling /home/raspberry/Auv_ws/src/install/serial_bridge/lib/python3.10/site-packages/serial_bridge/pikhawk_bridge.py to pikhawk_bridge.cpython-310.pyc
+running install_data
+creating /home/raspberry/Auv_ws/src/install/serial_bridge/share/ament_index
+creating /home/raspberry/Auv_ws/src/install/serial_bridge/share/ament_index/resource_index
+creating /home/raspberry/Auv_ws/src/install/serial_bridge/share/ament_index/resource_index/packages
+copying resource/serial_bridge -> /home/raspberry/Auv_ws/src/install/serial_bridge/share/ament_index/resource_index/packages
+copying package.xml -> /home/raspberry/Auv_ws/src/install/serial_bridge/share/serial_bridge
+running install_egg_info
+Copying ../build/serial_bridge/serial_bridge.egg-info to /home/raspberry/Auv_ws/src/install/serial_bridge/lib/python3.10/site-packages/serial_bridge-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arduino_bridge script to /home/raspberry/Auv_ws/src/install/serial_bridge/lib/serial_bridge
+Installing imu_dashboard_adapter script to /home/raspberry/Auv_ws/src/install/serial_bridge/lib/serial_bridge
+writing list of installed files to '/home/raspberry/Auv_ws/src/build/serial_bridge/install.log'
