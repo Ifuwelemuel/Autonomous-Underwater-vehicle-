@@ -1,0 +1,391 @@
+[0.608s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.609s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffbb85dbd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbb9dab30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbb9dab30>>, mixin_verb=('build',))
+[1.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.565s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/raspberry/Auv_ws'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.629s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.630s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.630s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.631s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.635s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.635s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.635s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.637s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.637s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.637s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_bringup) by extension 'ignore'
+[1.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_bringup) by extension 'ignore_ament_install'
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_bringup) by extensions ['colcon_pkg']
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_bringup) by extension 'colcon_pkg'
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_bringup) by extensions ['colcon_meta']
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_bringup) by extension 'colcon_meta'
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_bringup) by extensions ['ros']
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_bringup) by extension 'ros'
+[1.652s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auv_bringup' with type 'ros.ament_python' and name 'auv_bringup'
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_camera_stream) by extensions ['ignore', 'ignore_ament_install']
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_camera_stream) by extension 'ignore'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_camera_stream) by extension 'ignore_ament_install'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_camera_stream) by extensions ['colcon_pkg']
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_camera_stream) by extension 'colcon_pkg'
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_camera_stream) by extensions ['colcon_meta']
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_camera_stream) by extension 'colcon_meta'
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_camera_stream) by extensions ['ros']
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_camera_stream) by extension 'ros'
+[1.657s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auv_camera_stream' with type 'ros.ament_python' and name 'auv_camera_stream'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_control) by extensions ['ignore', 'ignore_ament_install']
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_control) by extension 'ignore'
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_control) by extension 'ignore_ament_install'
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_control) by extensions ['colcon_pkg']
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_control) by extension 'colcon_pkg'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_control) by extensions ['colcon_meta']
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_control) by extension 'colcon_meta'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_control) by extensions ['ros']
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_control) by extension 'ros'
+[1.663s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auv_control' with type 'ros.ament_python' and name 'auv_control'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_teleop) by extensions ['ignore', 'ignore_ament_install']
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_teleop) by extension 'ignore'
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_teleop) by extension 'ignore_ament_install'
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_teleop) by extensions ['colcon_pkg']
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_teleop) by extension 'colcon_pkg'
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_teleop) by extensions ['colcon_meta']
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_teleop) by extension 'colcon_meta'
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_teleop) by extensions ['ros']
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_teleop) by extension 'ros'
+[1.669s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auv_teleop' with type 'ros.ament_python' and name 'auv_teleop'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmare) by extensions ['ignore', 'ignore_ament_install']
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmare) by extension 'ignore'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmare) by extension 'ignore_ament_install'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmare) by extensions ['colcon_pkg']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmare) by extension 'colcon_pkg'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmare) by extensions ['colcon_meta']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmare) by extension 'colcon_meta'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmare) by extensions ['ros']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmare) by extension 'ros'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmare) by extensions ['cmake', 'python']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmare) by extension 'cmake'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmare) by extension 'python'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmare) by extensions ['python_setup_py']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmare) by extension 'python_setup_py'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_bridge) by extensions ['ignore', 'ignore_ament_install']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_bridge) by extension 'ignore'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_bridge) by extension 'ignore_ament_install'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_bridge) by extensions ['colcon_pkg']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_bridge) by extension 'colcon_pkg'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_bridge) by extensions ['colcon_meta']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_bridge) by extension 'colcon_meta'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_bridge) by extensions ['ros']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_bridge) by extension 'ros'
+[1.683s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_bridge' with type 'ros.ament_python' and name 'serial_bridge'
+[1.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.797s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/raspberry/Auv_ws/install
+[1.805s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 196 installed packages in /opt/ros/humble
+[1.810s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.009s] Level 5:colcon.colcon_core.verb:set package 'auv_camera_stream' build argument 'cmake_args' from command line to 'None'
+[2.009s] Level 5:colcon.colcon_core.verb:set package 'auv_camera_stream' build argument 'cmake_target' from command line to 'None'
+[2.010s] Level 5:colcon.colcon_core.verb:set package 'auv_camera_stream' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.010s] Level 5:colcon.colcon_core.verb:set package 'auv_camera_stream' build argument 'cmake_clean_cache' from command line to 'False'
+[2.010s] Level 5:colcon.colcon_core.verb:set package 'auv_camera_stream' build argument 'cmake_clean_first' from command line to 'False'
+[2.010s] Level 5:colcon.colcon_core.verb:set package 'auv_camera_stream' build argument 'cmake_force_configure' from command line to 'False'
+[2.010s] Level 5:colcon.colcon_core.verb:set package 'auv_camera_stream' build argument 'ament_cmake_args' from command line to 'None'
+[2.010s] Level 5:colcon.colcon_core.verb:set package 'auv_camera_stream' build argument 'catkin_cmake_args' from command line to 'None'
+[2.010s] Level 5:colcon.colcon_core.verb:set package 'auv_camera_stream' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.011s] DEBUG:colcon.colcon_core.verb:Building package 'auv_camera_stream' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raspberry/Auv_ws/build/auv_camera_stream', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raspberry/Auv_ws/install/auv_camera_stream', 'merge_install': False, 'path': '/home/raspberry/Auv_ws/src/auv_camera_stream', 'symlink_install': True, 'test_result_base': None}
+[2.012s] Level 5:colcon.colcon_core.verb:set package 'auv_control' build argument 'cmake_args' from command line to 'None'
+[2.012s] Level 5:colcon.colcon_core.verb:set package 'auv_control' build argument 'cmake_target' from command line to 'None'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'auv_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'auv_control' build argument 'cmake_clean_cache' from command line to 'False'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'auv_control' build argument 'cmake_clean_first' from command line to 'False'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'auv_control' build argument 'cmake_force_configure' from command line to 'False'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'auv_control' build argument 'ament_cmake_args' from command line to 'None'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'auv_control' build argument 'catkin_cmake_args' from command line to 'None'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'auv_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.013s] DEBUG:colcon.colcon_core.verb:Building package 'auv_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raspberry/Auv_ws/build/auv_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raspberry/Auv_ws/install/auv_control', 'merge_install': False, 'path': '/home/raspberry/Auv_ws/src/auv_control', 'symlink_install': True, 'test_result_base': None}
+[2.015s] Level 5:colcon.colcon_core.verb:set package 'auv_teleop' build argument 'cmake_args' from command line to 'None'
+[2.015s] Level 5:colcon.colcon_core.verb:set package 'auv_teleop' build argument 'cmake_target' from command line to 'None'
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'auv_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'auv_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'auv_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'auv_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'auv_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'auv_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'auv_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.017s] DEBUG:colcon.colcon_core.verb:Building package 'auv_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raspberry/Auv_ws/build/auv_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raspberry/Auv_ws/install/auv_teleop', 'merge_install': False, 'path': '/home/raspberry/Auv_ws/src/auv_teleop', 'symlink_install': True, 'test_result_base': None}
+[2.018s] Level 5:colcon.colcon_core.verb:set package 'serial_bridge' build argument 'cmake_args' from command line to 'None'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'serial_bridge' build argument 'cmake_target' from command line to 'None'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'serial_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'serial_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'serial_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'serial_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'serial_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'serial_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'serial_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.020s] DEBUG:colcon.colcon_core.verb:Building package 'serial_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raspberry/Auv_ws/build/serial_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raspberry/Auv_ws/install/serial_bridge', 'merge_install': False, 'path': '/home/raspberry/Auv_ws/src/serial_bridge', 'symlink_install': True, 'test_result_base': None}
+[2.021s] Level 5:colcon.colcon_core.verb:set package 'auv_bringup' build argument 'cmake_args' from command line to 'None'
+[2.021s] Level 5:colcon.colcon_core.verb:set package 'auv_bringup' build argument 'cmake_target' from command line to 'None'
+[2.022s] Level 5:colcon.colcon_core.verb:set package 'auv_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.022s] Level 5:colcon.colcon_core.verb:set package 'auv_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.022s] Level 5:colcon.colcon_core.verb:set package 'auv_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.022s] Level 5:colcon.colcon_core.verb:set package 'auv_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.022s] Level 5:colcon.colcon_core.verb:set package 'auv_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.022s] Level 5:colcon.colcon_core.verb:set package 'auv_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.022s] Level 5:colcon.colcon_core.verb:set package 'auv_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.022s] DEBUG:colcon.colcon_core.verb:Building package 'auv_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raspberry/Auv_ws/build/auv_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raspberry/Auv_ws/install/auv_bringup', 'merge_install': False, 'path': '/home/raspberry/Auv_ws/src/auv_bringup', 'symlink_install': True, 'test_result_base': None}
+[2.023s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.027s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.028s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/raspberry/Auv_ws/src/auv_teleop' with build type 'ament_python'
+[2.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('auv_teleop', 'ament_prefix_path')
+[2.042s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/auv_teleop/share/auv_teleop/hook/ament_prefix_path.ps1'
+[2.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberry/Auv_ws/install/auv_teleop/share/auv_teleop/hook/ament_prefix_path.dsv'
+[2.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/auv_teleop/share/auv_teleop/hook/ament_prefix_path.sh'
+[2.055s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.077s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/raspberry/Auv_ws/src/auv_camera_stream' with build type 'ament_python'
+[2.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('auv_camera_stream', 'ament_prefix_path')
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/auv_camera_stream/share/auv_camera_stream/hook/ament_prefix_path.ps1'
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberry/Auv_ws/install/auv_camera_stream/share/auv_camera_stream/hook/ament_prefix_path.dsv'
+[2.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/auv_camera_stream/share/auv_camera_stream/hook/ament_prefix_path.sh'
+[2.088s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.089s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.109s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/raspberry/Auv_ws/src/auv_control' with build type 'ament_python'
+[2.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('auv_control', 'ament_prefix_path')
+[2.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/auv_control/share/auv_control/hook/ament_prefix_path.ps1'
+[2.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberry/Auv_ws/install/auv_control/share/auv_control/hook/ament_prefix_path.dsv'
+[2.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/auv_control/share/auv_control/hook/ament_prefix_path.sh'
+[2.120s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.121s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.143s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/raspberry/Auv_ws/src/serial_bridge' with build type 'ament_python'
+[2.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_bridge', 'ament_prefix_path')
+[2.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/serial_bridge/share/serial_bridge/hook/ament_prefix_path.ps1'
+[2.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberry/Auv_ws/install/serial_bridge/share/serial_bridge/hook/ament_prefix_path.dsv'
+[2.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/serial_bridge/share/serial_bridge/hook/ament_prefix_path.sh'
+[2.156s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.156s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.641s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/raspberry/Auv_ws/src/auv_teleop'
+[3.642s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.642s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.088s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/raspberry/Auv_ws/src/auv_camera_stream'
+[5.089s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.090s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.544s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/raspberry/Auv_ws/src/auv_control'
+[6.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.545s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.003s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/raspberry/Auv_ws/src/serial_bridge'
+[8.004s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.004s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.740s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/auv_camera_stream/share/ament_index/resource_index/packages/auv_camera_stream
+[10.740s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/auv_camera_stream/share/auv_camera_stream/package.xml
+[10.743s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/auv_camera_stream/lib/auv_camera_stream/camera_node
+[10.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raspberry/Auv_ws/build/auv_camera_stream': PYTHONPATH=/home/raspberry/Auv_ws/build/auv_camera_stream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberry/Auv_ws/build/auv_camera_stream/build --no-deps symlink_data --force
+[11.112s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/serial_bridge/share/ament_index/resource_index/packages/serial_bridge
+[11.112s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/serial_bridge/share/serial_bridge/package.xml
+[11.117s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/serial_bridge/lib/serial_bridge/arduino_bridge
+[11.117s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/serial_bridge/lib/serial_bridge/imu_dashboard_adapter
+[11.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raspberry/Auv_ws/build/serial_bridge': PYTHONPATH=/home/raspberry/Auv_ws/build/serial_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/serial_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberry/Auv_ws/build/serial_bridge/build --no-deps symlink_data --force
+[11.336s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/auv_control/share/ament_index/resource_index/packages/auv_control
+[11.336s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/auv_control/share/auv_control/package.xml
+[11.338s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/auv_control/lib/auv_control/heading_controller
+[11.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raspberry/Auv_ws/build/auv_control': PYTHONPATH=/home/raspberry/Auv_ws/build/auv_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberry/Auv_ws/build/auv_control/build --no-deps symlink_data --force
+[11.816s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/auv_teleop/share/ament_index/resource_index/packages/auv_teleop
+[11.816s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/auv_teleop/share/auv_teleop/package.xml
+[11.817s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/auv_teleop/share/auv_teleop/config/mapping.yaml
+[11.824s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/auv_teleop/lib/auv_teleop/teleop_xbox_node
+[11.824s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/auv_teleop/lib/auv_teleop/xbox_node
+[11.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raspberry/Auv_ws/build/auv_teleop': PYTHONPATH=/home/raspberry/Auv_ws/build/auv_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberry/Auv_ws/build/auv_teleop/build --no-deps symlink_data --force
+[14.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('auv_camera_stream', 'pythonpath_develop')
+[14.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/build/auv_camera_stream/share/auv_camera_stream/hook/pythonpath_develop.ps1'
+[14.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raspberry/Auv_ws/build/auv_camera_stream' returned '0': PYTHONPATH=/home/raspberry/Auv_ws/build/auv_camera_stream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberry/Auv_ws/build/auv_camera_stream/build --no-deps symlink_data --force
+[14.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberry/Auv_ws/build/auv_camera_stream/share/auv_camera_stream/hook/pythonpath_develop.dsv'
+[14.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/build/auv_camera_stream/share/auv_camera_stream/hook/pythonpath_develop.sh'
+[14.885s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_camera_stream' for CMake module files
+[14.889s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_camera_stream' for CMake config files
+[14.895s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_camera_stream/lib'
+[14.897s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_camera_stream/bin'
+[14.897s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_camera_stream/lib/pkgconfig/auv_camera_stream.pc'
+[14.899s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages'
+[14.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('auv_camera_stream', 'pythonpath')
+[14.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/auv_camera_stream/share/auv_camera_stream/hook/pythonpath.ps1'
+[14.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberry/Auv_ws/install/auv_camera_stream/share/auv_camera_stream/hook/pythonpath.dsv'
+[14.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/auv_camera_stream/share/auv_camera_stream/hook/pythonpath.sh'
+[14.914s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_camera_stream/bin'
+[14.914s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auv_camera_stream)
+[14.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/auv_camera_stream/share/auv_camera_stream/package.ps1'
+[14.923s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raspberry/Auv_ws/install/auv_camera_stream/share/auv_camera_stream/package.dsv'
+[14.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/auv_camera_stream/share/auv_camera_stream/package.sh'
+[14.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/auv_camera_stream/share/auv_camera_stream/package.bash'
+[14.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/auv_camera_stream/share/auv_camera_stream/package.zsh'
+[14.949s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raspberry/Auv_ws/install/auv_camera_stream/share/colcon-core/packages/auv_camera_stream)
+[15.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_bridge', 'pythonpath_develop')
+[15.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/build/serial_bridge/share/serial_bridge/hook/pythonpath_develop.ps1'
+[15.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raspberry/Auv_ws/build/serial_bridge' returned '0': PYTHONPATH=/home/raspberry/Auv_ws/build/serial_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/serial_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberry/Auv_ws/build/serial_bridge/build --no-deps symlink_data --force
+[15.413s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberry/Auv_ws/build/serial_bridge/share/serial_bridge/hook/pythonpath_develop.dsv'
+[15.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/build/serial_bridge/share/serial_bridge/hook/pythonpath_develop.sh'
+[15.420s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/serial_bridge' for CMake module files
+[15.423s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/serial_bridge' for CMake config files
+[15.428s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/serial_bridge/lib'
+[15.429s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/serial_bridge/bin'
+[15.429s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/serial_bridge/lib/pkgconfig/serial_bridge.pc'
+[15.432s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/serial_bridge/lib/python3.10/site-packages'
+[15.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_bridge', 'pythonpath')
+[15.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/serial_bridge/share/serial_bridge/hook/pythonpath.ps1'
+[15.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberry/Auv_ws/install/serial_bridge/share/serial_bridge/hook/pythonpath.dsv'
+[15.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/serial_bridge/share/serial_bridge/hook/pythonpath.sh'
+[15.444s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/serial_bridge/bin'
+[15.445s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_bridge)
+[15.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/serial_bridge/share/serial_bridge/package.ps1'
+[15.450s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raspberry/Auv_ws/install/serial_bridge/share/serial_bridge/package.dsv'
+[15.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/serial_bridge/share/serial_bridge/package.sh'
+[15.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/serial_bridge/share/serial_bridge/package.bash'
+[15.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/serial_bridge/share/serial_bridge/package.zsh'
+[15.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raspberry/Auv_ws/install/serial_bridge/share/colcon-core/packages/serial_bridge)
+[15.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('auv_control', 'pythonpath_develop')
+[15.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/build/auv_control/share/auv_control/hook/pythonpath_develop.ps1'
+[15.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raspberry/Auv_ws/build/auv_control' returned '0': PYTHONPATH=/home/raspberry/Auv_ws/build/auv_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberry/Auv_ws/build/auv_control/build --no-deps symlink_data --force
+[15.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberry/Auv_ws/build/auv_control/share/auv_control/hook/pythonpath_develop.dsv'
+[15.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/build/auv_control/share/auv_control/hook/pythonpath_develop.sh'
+[15.741s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_control' for CMake module files
+[15.745s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_control' for CMake config files
+[15.752s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_control/lib'
+[15.754s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_control/bin'
+[15.755s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_control/lib/pkgconfig/auv_control.pc'
+[15.757s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_control/lib/python3.10/site-packages'
+[15.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('auv_control', 'pythonpath')
+[15.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/auv_control/share/auv_control/hook/pythonpath.ps1'
+[15.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberry/Auv_ws/install/auv_control/share/auv_control/hook/pythonpath.dsv'
+[15.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/auv_control/share/auv_control/hook/pythonpath.sh'
+[15.776s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_control/bin'
+[15.776s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auv_control)
+[15.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/auv_control/share/auv_control/package.ps1'
+[15.784s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raspberry/Auv_ws/install/auv_control/share/auv_control/package.dsv'
+[15.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/auv_control/share/auv_control/package.sh'
+[15.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/auv_control/share/auv_control/package.bash'
+[15.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/auv_control/share/auv_control/package.zsh'
+[15.800s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raspberry/Auv_ws/install/auv_control/share/colcon-core/packages/auv_control)
+[15.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('auv_teleop', 'pythonpath_develop')
+[15.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/build/auv_teleop/share/auv_teleop/hook/pythonpath_develop.ps1'
+[15.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raspberry/Auv_ws/build/auv_teleop' returned '0': PYTHONPATH=/home/raspberry/Auv_ws/build/auv_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberry/Auv_ws/build/auv_teleop/build --no-deps symlink_data --force
+[15.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberry/Auv_ws/build/auv_teleop/share/auv_teleop/hook/pythonpath_develop.dsv'
+[15.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/build/auv_teleop/share/auv_teleop/hook/pythonpath_develop.sh'
+[15.877s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_teleop' for CMake module files
+[15.880s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_teleop' for CMake config files
+[15.884s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_teleop/lib'
+[15.885s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_teleop/bin'
+[15.885s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_teleop/lib/pkgconfig/auv_teleop.pc'
+[15.886s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_teleop/lib/python3.10/site-packages'
+[15.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('auv_teleop', 'pythonpath')
+[15.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/auv_teleop/share/auv_teleop/hook/pythonpath.ps1'
+[15.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberry/Auv_ws/install/auv_teleop/share/auv_teleop/hook/pythonpath.dsv'
+[15.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/auv_teleop/share/auv_teleop/hook/pythonpath.sh'
+[15.896s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_teleop/bin'
+[15.897s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auv_teleop)
+[15.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/auv_teleop/share/auv_teleop/package.ps1'
+[15.901s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raspberry/Auv_ws/install/auv_teleop/share/auv_teleop/package.dsv'
+[15.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/auv_teleop/share/auv_teleop/package.sh'
+[15.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/auv_teleop/share/auv_teleop/package.bash'
+[15.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/auv_teleop/share/auv_teleop/package.zsh'
+[15.912s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raspberry/Auv_ws/install/auv_teleop/share/colcon-core/packages/auv_teleop)
+[15.914s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/raspberry/Auv_ws/src/auv_bringup' with build type 'ament_python'
+[15.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('auv_bringup', 'ament_prefix_path')
+[15.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/auv_bringup/share/auv_bringup/hook/ament_prefix_path.ps1'
+[15.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberry/Auv_ws/install/auv_bringup/share/auv_bringup/hook/ament_prefix_path.dsv'
+[15.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/auv_bringup/share/auv_bringup/hook/ament_prefix_path.sh'
+[15.926s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.926s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.381s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/raspberry/Auv_ws/src/auv_bringup'
+[17.382s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.382s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.357s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/auv_bringup/share/ament_index/resource_index/packages/auv_bringup
+[19.358s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/auv_bringup/share/auv_bringup/package.xml
+[19.358s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/auv_bringup/share/auv_bringup/launch/launchphase1.xml
+[19.358s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/raspberry/Auv_ws/install/auv_bringup/share/auv_bringup/launch/launch_pixhawk.xml
+[19.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raspberry/Auv_ws/build/auv_bringup': AMENT_PREFIX_PATH=/home/raspberry/Auv_ws/install/auv_teleop:/home/raspberry/Auv_ws/install/serial_bridge:/home/raspberry/Auv_ws/install/auv_bringup:/home/raspberry/Auv_ws/install/auv_control:/home/raspberry/Auv_ws/install/auv_camera_stream:/home/raspberry/Auv_ws/install/Auv_teleop:/home/raspberry/Auv_ws/install/Auv_control:/home/raspberry/Auv_ws/install/Auv_camera_stream:/opt/ros/humble PYTHONPATH=/home/raspberry/Auv_ws/build/auv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_bringup/lib/python3.10/site-packages:/home/raspberry/Auv_ws/build/auv_teleop:/home/raspberry/Auv_ws/install/auv_teleop/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/serial_bridge/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/auv_bringup/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/auv_control/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/Auv_camera_stream/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberry/Auv_ws/build/auv_bringup/build --no-deps symlink_data --force
+[21.948s] Level 1:colcon.colcon_core.shell:create_environment_hook('auv_bringup', 'pythonpath_develop')
+[21.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/build/auv_bringup/share/auv_bringup/hook/pythonpath_develop.ps1'
+[21.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raspberry/Auv_ws/build/auv_bringup' returned '0': AMENT_PREFIX_PATH=/home/raspberry/Auv_ws/install/auv_teleop:/home/raspberry/Auv_ws/install/serial_bridge:/home/raspberry/Auv_ws/install/auv_bringup:/home/raspberry/Auv_ws/install/auv_control:/home/raspberry/Auv_ws/install/auv_camera_stream:/home/raspberry/Auv_ws/install/Auv_teleop:/home/raspberry/Auv_ws/install/Auv_control:/home/raspberry/Auv_ws/install/Auv_camera_stream:/opt/ros/humble PYTHONPATH=/home/raspberry/Auv_ws/build/auv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_bringup/lib/python3.10/site-packages:/home/raspberry/Auv_ws/build/auv_teleop:/home/raspberry/Auv_ws/install/auv_teleop/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/serial_bridge/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/auv_bringup/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/auv_control/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/Auv_camera_stream/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberry/Auv_ws/build/auv_bringup/build --no-deps symlink_data --force
+[21.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberry/Auv_ws/build/auv_bringup/share/auv_bringup/hook/pythonpath_develop.dsv'
+[21.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/build/auv_bringup/share/auv_bringup/hook/pythonpath_develop.sh'
+[21.961s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_bringup' for CMake module files
+[21.964s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_bringup' for CMake config files
+[21.967s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_bringup/lib'
+[21.968s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_bringup/bin'
+[21.969s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_bringup/lib/pkgconfig/auv_bringup.pc'
+[21.970s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_bringup/lib/python3.10/site-packages'
+[21.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('auv_bringup', 'pythonpath')
+[21.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/auv_bringup/share/auv_bringup/hook/pythonpath.ps1'
+[21.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raspberry/Auv_ws/install/auv_bringup/share/auv_bringup/hook/pythonpath.dsv'
+[21.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raspberry/Auv_ws/install/auv_bringup/share/auv_bringup/hook/pythonpath.sh'
+[21.980s] Level 1:colcon.colcon_core.environment:checking '/home/raspberry/Auv_ws/install/auv_bringup/bin'
+[21.981s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auv_bringup)
+[21.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/auv_bringup/share/auv_bringup/package.ps1'
+[21.986s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raspberry/Auv_ws/install/auv_bringup/share/auv_bringup/package.dsv'
+[21.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/auv_bringup/share/auv_bringup/package.sh'
+[21.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/auv_bringup/share/auv_bringup/package.bash'
+[21.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/raspberry/Auv_ws/install/auv_bringup/share/auv_bringup/package.zsh'
+[21.997s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raspberry/Auv_ws/install/auv_bringup/share/colcon-core/packages/auv_bringup)
+[21.998s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.002s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.029s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[22.029s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.029s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.030s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.033s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[22.034s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.035s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raspberry/Auv_ws/install/local_setup.ps1'
+[22.039s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/raspberry/Auv_ws/install/_local_setup_util_ps1.py'
+[22.047s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raspberry/Auv_ws/install/setup.ps1'
+[22.054s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raspberry/Auv_ws/install/local_setup.sh'
+[22.058s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/raspberry/Auv_ws/install/_local_setup_util_sh.py'
+[22.061s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raspberry/Auv_ws/install/setup.sh'
+[22.069s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raspberry/Auv_ws/install/local_setup.bash'
+[22.071s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raspberry/Auv_ws/install/setup.bash'
+[22.079s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raspberry/Auv_ws/install/local_setup.zsh'
+[22.082s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raspberry/Auv_ws/install/setup.zsh'

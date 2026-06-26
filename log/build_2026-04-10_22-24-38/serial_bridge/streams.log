@@ -1,0 +1,20 @@
+[8.988s] Invoking command in '/home/raspberry/Auv_ws/build/serial_bridge': PYTHONPATH=/home/raspberry/Auv_ws/build/serial_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/serial_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberry/Auv_ws/build/serial_bridge/build --no-deps symlink_data --force
+[11.548s] running develop
+[13.021s] running egg_info
+[13.022s] writing serial_bridge.egg-info/PKG-INFO
+[13.025s] writing dependency_links to serial_bridge.egg-info/dependency_links.txt
+[13.026s] writing entry points to serial_bridge.egg-info/entry_points.txt
+[13.028s] writing requirements to serial_bridge.egg-info/requires.txt
+[13.029s] writing top-level names to serial_bridge.egg-info/top_level.txt
+[13.040s] reading manifest file 'serial_bridge.egg-info/SOURCES.txt'
+[13.045s] writing manifest file 'serial_bridge.egg-info/SOURCES.txt'
+[13.054s] running build_ext
+[13.056s] Creating /home/raspberry/Auv_ws/install/serial_bridge/lib/python3.10/site-packages/serial-bridge.egg-link (link to .)
+[13.061s] Installing arduino_bridge script to /home/raspberry/Auv_ws/install/serial_bridge/lib/serial_bridge
+[13.063s] Installing imu_dashboard_adapter script to /home/raspberry/Auv_ws/install/serial_bridge/lib/serial_bridge
+[13.066s] 
+[13.067s] Installed /home/raspberry/Auv_ws/build/serial_bridge
+[13.068s] running symlink_data
+[13.069s] symbolically linking /home/raspberry/Auv_ws/build/serial_bridge/resource/serial_bridge -> /home/raspberry/Auv_ws/install/serial_bridge/share/ament_index/resource_index/packages
+[13.070s] symbolically linking /home/raspberry/Auv_ws/build/serial_bridge/package.xml -> /home/raspberry/Auv_ws/install/serial_bridge/share/serial_bridge
+[13.263s] Invoked command in '/home/raspberry/Auv_ws/build/serial_bridge' returned '0': PYTHONPATH=/home/raspberry/Auv_ws/build/serial_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/serial_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberry/Auv_ws/build/serial_bridge/build --no-deps symlink_data --force

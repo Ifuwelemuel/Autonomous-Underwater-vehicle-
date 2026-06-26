@@ -1,0 +1,36 @@
+[3.030s] Invoking command in '/home/raspberry/Auv_ws/src/Auv_teleop': PYTHONPATH=/home/raspberry/Auv_ws/build/Auv_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Auv_teleop build --build-base /home/raspberry/Auv_ws/build/Auv_teleop/build install --record /home/raspberry/Auv_ws/build/Auv_teleop/install.log --single-version-externally-managed install_data
+[3.975s] running egg_info
+[3.977s] creating ../../build/Auv_teleop/Auv_teleop.egg-info
+[3.977s] writing ../../build/Auv_teleop/Auv_teleop.egg-info/PKG-INFO
+[3.979s] writing dependency_links to ../../build/Auv_teleop/Auv_teleop.egg-info/dependency_links.txt
+[3.980s] writing entry points to ../../build/Auv_teleop/Auv_teleop.egg-info/entry_points.txt
+[3.980s] writing requirements to ../../build/Auv_teleop/Auv_teleop.egg-info/requires.txt
+[3.981s] writing top-level names to ../../build/Auv_teleop/Auv_teleop.egg-info/top_level.txt
+[3.982s] writing manifest file '../../build/Auv_teleop/Auv_teleop.egg-info/SOURCES.txt'
+[3.990s] reading manifest file '../../build/Auv_teleop/Auv_teleop.egg-info/SOURCES.txt'
+[3.993s] writing manifest file '../../build/Auv_teleop/Auv_teleop.egg-info/SOURCES.txt'
+[3.993s] running build
+[3.994s] running build_py
+[3.995s] creating /home/raspberry/Auv_ws/build/Auv_teleop/build
+[3.995s] creating /home/raspberry/Auv_ws/build/Auv_teleop/build/lib
+[3.996s] creating /home/raspberry/Auv_ws/build/Auv_teleop/build/lib/Auv_teleop
+[3.996s] copying Auv_teleop/teleop_xbox_node.py -> /home/raspberry/Auv_ws/build/Auv_teleop/build/lib/Auv_teleop
+[3.997s] copying Auv_teleop/__init__.py -> /home/raspberry/Auv_ws/build/Auv_teleop/build/lib/Auv_teleop
+[3.997s] running install
+[3.998s] running install_lib
+[4.001s] creating /home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages/Auv_teleop
+[4.002s] copying /home/raspberry/Auv_ws/build/Auv_teleop/build/lib/Auv_teleop/teleop_xbox_node.py -> /home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages/Auv_teleop
+[4.002s] copying /home/raspberry/Auv_ws/build/Auv_teleop/build/lib/Auv_teleop/__init__.py -> /home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages/Auv_teleop
+[4.005s] byte-compiling /home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages/Auv_teleop/teleop_xbox_node.py to teleop_xbox_node.cpython-310.pyc
+[4.008s] byte-compiling /home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages/Auv_teleop/__init__.py to __init__.cpython-310.pyc
+[4.009s] running install_data
+[4.010s] creating /home/raspberry/Auv_ws/install/Auv_teleop/share/ament_index
+[4.010s] creating /home/raspberry/Auv_ws/install/Auv_teleop/share/ament_index/resource_index
+[4.011s] creating /home/raspberry/Auv_ws/install/Auv_teleop/share/ament_index/resource_index/packages
+[4.011s] copying resource/Auv_teleop -> /home/raspberry/Auv_ws/install/Auv_teleop/share/ament_index/resource_index/packages
+[4.012s] copying package.xml -> /home/raspberry/Auv_ws/install/Auv_teleop/share/Auv_teleop
+[4.012s] running install_egg_info
+[4.020s] Copying ../../build/Auv_teleop/Auv_teleop.egg-info to /home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages/Auv_teleop-0.0.0-py3.10.egg-info
+[4.026s] running install_scripts
+[4.103s] writing list of installed files to '/home/raspberry/Auv_ws/build/Auv_teleop/install.log'
+[4.220s] Invoked command in '/home/raspberry/Auv_ws/src/Auv_teleop' returned '0': PYTHONPATH=/home/raspberry/Auv_ws/build/Auv_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Auv_teleop build --build-base /home/raspberry/Auv_ws/build/Auv_teleop/build install --record /home/raspberry/Auv_ws/build/Auv_teleop/install.log --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[7.074s] Invoking command in '/home/raspberry/Auv_ws/src/auv_camera_stream': PYTHONPATH=/home/raspberry/Auv_ws/build/auv_camera_stream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auv_camera_stream build --build-base /home/raspberry/Auv_ws/build/auv_camera_stream/build install --record /home/raspberry/Auv_ws/build/auv_camera_stream/install.log --single-version-externally-managed install_data
+[9.306s] running egg_info
+[9.314s] writing ../../build/auv_camera_stream/auv_camera_stream.egg-info/PKG-INFO
+[9.319s] writing dependency_links to ../../build/auv_camera_stream/auv_camera_stream.egg-info/dependency_links.txt
+[9.324s] writing entry points to ../../build/auv_camera_stream/auv_camera_stream.egg-info/entry_points.txt
+[9.326s] writing requirements to ../../build/auv_camera_stream/auv_camera_stream.egg-info/requires.txt
+[9.329s] writing top-level names to ../../build/auv_camera_stream/auv_camera_stream.egg-info/top_level.txt
+[9.344s] reading manifest file '../../build/auv_camera_stream/auv_camera_stream.egg-info/SOURCES.txt'
+[9.353s] writing manifest file '../../build/auv_camera_stream/auv_camera_stream.egg-info/SOURCES.txt'
+[9.356s] running build
+[9.357s] running build_py
+[9.360s] running install
+[9.364s] running install_lib
+[9.369s] running install_data
+[9.370s] running install_egg_info
+[9.380s] removing '/home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages/auv_camera_stream-0.0.0-py3.10.egg-info' (and everything under it)
+[9.384s] Copying ../../build/auv_camera_stream/auv_camera_stream.egg-info to /home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages/auv_camera_stream-0.0.0-py3.10.egg-info
+[9.392s] running install_scripts
+[9.533s] Installing camera_node script to /home/raspberry/Auv_ws/install/auv_camera_stream/lib/auv_camera_stream
+[9.536s] writing list of installed files to '/home/raspberry/Auv_ws/build/auv_camera_stream/install.log'
+[9.759s] Invoked command in '/home/raspberry/Auv_ws/src/auv_camera_stream' returned '0': PYTHONPATH=/home/raspberry/Auv_ws/build/auv_camera_stream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auv_camera_stream build --build-base /home/raspberry/Auv_ws/build/auv_camera_stream/build install --record /home/raspberry/Auv_ws/build/auv_camera_stream/install.log --single-version-externally-managed install_data

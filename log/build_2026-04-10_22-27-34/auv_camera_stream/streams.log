@@ -1,0 +1,17 @@
+[9.950s] Invoking command in '/home/raspberry/Auv_ws/build/auv_camera_stream': PYTHONPATH=/home/raspberry/Auv_ws/build/auv_camera_stream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberry/Auv_ws/build/auv_camera_stream/build --no-deps symlink_data
+[12.687s] running develop
+[13.846s] running egg_info
+[13.847s] writing auv_camera_stream.egg-info/PKG-INFO
+[13.849s] writing dependency_links to auv_camera_stream.egg-info/dependency_links.txt
+[13.850s] writing entry points to auv_camera_stream.egg-info/entry_points.txt
+[13.851s] writing requirements to auv_camera_stream.egg-info/requires.txt
+[13.852s] writing top-level names to auv_camera_stream.egg-info/top_level.txt
+[13.863s] reading manifest file 'auv_camera_stream.egg-info/SOURCES.txt'
+[13.868s] writing manifest file 'auv_camera_stream.egg-info/SOURCES.txt'
+[13.877s] running build_ext
+[13.878s] Creating /home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages/auv-camera-stream.egg-link (link to .)
+[13.884s] Installing camera_node script to /home/raspberry/Auv_ws/install/auv_camera_stream/lib/auv_camera_stream
+[13.886s] 
+[13.887s] Installed /home/raspberry/Auv_ws/build/auv_camera_stream
+[13.889s] running symlink_data
+[14.829s] Invoked command in '/home/raspberry/Auv_ws/build/auv_camera_stream' returned '0': PYTHONPATH=/home/raspberry/Auv_ws/build/auv_camera_stream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberry/Auv_ws/build/auv_camera_stream/build --no-deps symlink_data

@@ -1,0 +1,19 @@
+[8.704s] Invoking command in '/home/raspberry/Auv_ws/build/auv_camera_stream': PYTHONPATH=/home/raspberry/Auv_ws/build/auv_camera_stream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberry/Auv_ws/build/auv_camera_stream/build --no-deps symlink_data --force
+[11.391s] running develop
+[12.536s] running egg_info
+[12.538s] writing auv_camera_stream.egg-info/PKG-INFO
+[12.538s] writing dependency_links to auv_camera_stream.egg-info/dependency_links.txt
+[12.539s] writing entry points to auv_camera_stream.egg-info/entry_points.txt
+[12.541s] writing requirements to auv_camera_stream.egg-info/requires.txt
+[12.542s] writing top-level names to auv_camera_stream.egg-info/top_level.txt
+[12.552s] reading manifest file 'auv_camera_stream.egg-info/SOURCES.txt'
+[12.556s] writing manifest file 'auv_camera_stream.egg-info/SOURCES.txt'
+[12.565s] running build_ext
+[12.566s] Creating /home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages/auv-camera-stream.egg-link (link to .)
+[12.571s] Installing camera_node script to /home/raspberry/Auv_ws/install/auv_camera_stream/lib/auv_camera_stream
+[12.573s] 
+[12.573s] Installed /home/raspberry/Auv_ws/build/auv_camera_stream
+[12.575s] running symlink_data
+[12.576s] symbolically linking /home/raspberry/Auv_ws/build/auv_camera_stream/resource/auv_camera_stream -> /home/raspberry/Auv_ws/install/auv_camera_stream/share/ament_index/resource_index/packages
+[12.578s] symbolically linking /home/raspberry/Auv_ws/build/auv_camera_stream/package.xml -> /home/raspberry/Auv_ws/install/auv_camera_stream/share/auv_camera_stream
+[12.770s] Invoked command in '/home/raspberry/Auv_ws/build/auv_camera_stream' returned '0': PYTHONPATH=/home/raspberry/Auv_ws/build/auv_camera_stream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raspberry/Auv_ws/build/auv_camera_stream/build --no-deps symlink_data --force

@@ -1,0 +1,34 @@
+running egg_info
+creating ../../build/Auv_teleop/Auv_teleop.egg-info
+writing ../../build/Auv_teleop/Auv_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../build/Auv_teleop/Auv_teleop.egg-info/dependency_links.txt
+writing entry points to ../../build/Auv_teleop/Auv_teleop.egg-info/entry_points.txt
+writing requirements to ../../build/Auv_teleop/Auv_teleop.egg-info/requires.txt
+writing top-level names to ../../build/Auv_teleop/Auv_teleop.egg-info/top_level.txt
+writing manifest file '../../build/Auv_teleop/Auv_teleop.egg-info/SOURCES.txt'
+reading manifest file '../../build/Auv_teleop/Auv_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../build/Auv_teleop/Auv_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/raspberry/Auv_ws/build/Auv_teleop/build
+creating /home/raspberry/Auv_ws/build/Auv_teleop/build/lib
+creating /home/raspberry/Auv_ws/build/Auv_teleop/build/lib/Auv_teleop
+copying Auv_teleop/teleop_xbox_node.py -> /home/raspberry/Auv_ws/build/Auv_teleop/build/lib/Auv_teleop
+copying Auv_teleop/__init__.py -> /home/raspberry/Auv_ws/build/Auv_teleop/build/lib/Auv_teleop
+running install
+running install_lib
+creating /home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages/Auv_teleop
+copying /home/raspberry/Auv_ws/build/Auv_teleop/build/lib/Auv_teleop/teleop_xbox_node.py -> /home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages/Auv_teleop
+copying /home/raspberry/Auv_ws/build/Auv_teleop/build/lib/Auv_teleop/__init__.py -> /home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages/Auv_teleop
+byte-compiling /home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages/Auv_teleop/teleop_xbox_node.py to teleop_xbox_node.cpython-310.pyc
+byte-compiling /home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages/Auv_teleop/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/raspberry/Auv_ws/install/Auv_teleop/share/ament_index
+creating /home/raspberry/Auv_ws/install/Auv_teleop/share/ament_index/resource_index
+creating /home/raspberry/Auv_ws/install/Auv_teleop/share/ament_index/resource_index/packages
+copying resource/Auv_teleop -> /home/raspberry/Auv_ws/install/Auv_teleop/share/ament_index/resource_index/packages
+copying package.xml -> /home/raspberry/Auv_ws/install/Auv_teleop/share/Auv_teleop
+running install_egg_info
+Copying ../../build/Auv_teleop/Auv_teleop.egg-info to /home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages/Auv_teleop-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/raspberry/Auv_ws/build/Auv_teleop/install.log'

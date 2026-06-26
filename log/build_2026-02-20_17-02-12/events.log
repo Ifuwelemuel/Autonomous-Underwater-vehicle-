@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000608] (-) JobUnselected: {'identifier': 'Auv_control'}
+[0.001423] (-) JobUnselected: {'identifier': 'Auv_teleop'}
+[0.001988] (serial_bridge) JobQueued: {'identifier': 'serial_bridge', 'dependencies': OrderedDict()}
+[0.002448] (serial_bridge) JobStarted: {'identifier': 'serial_bridge'}
+[0.098992] (-) TimerEvent: {}
+[0.199377] (-) TimerEvent: {}
+[0.299746] (-) TimerEvent: {}
+[0.400155] (-) TimerEvent: {}
+[0.500546] (-) TimerEvent: {}
+[0.600881] (-) TimerEvent: {}
+[0.701238] (-) TimerEvent: {}
+[0.801590] (-) TimerEvent: {}
+[0.901953] (-) TimerEvent: {}
+[1.002404] (-) TimerEvent: {}
+[1.103160] (-) TimerEvent: {}
+[1.203525] (-) TimerEvent: {}
+[1.303889] (-) TimerEvent: {}
+[1.404257] (-) TimerEvent: {}
+[1.504696] (-) TimerEvent: {}
+[1.605157] (-) TimerEvent: {}
+[1.705520] (-) TimerEvent: {}
+[1.805860] (-) TimerEvent: {}
+[1.906198] (-) TimerEvent: {}
+[2.006540] (-) TimerEvent: {}
+[2.106921] (-) TimerEvent: {}
+[2.207377] (-) TimerEvent: {}
+[2.307741] (-) TimerEvent: {}
+[2.408227] (-) TimerEvent: {}
+[2.508811] (-) TimerEvent: {}
+[2.572743] (serial_bridge) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/serial_bridge', 'build', '--build-base', '/home/raspberry/Auv_ws/build/serial_bridge/build', 'install', '--record', '/home/raspberry/Auv_ws/build/serial_bridge/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/raspberry/Auv_ws/src/serial_bridge', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/raspberry', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CODEX_CI': '1', 'USER': 'raspberry', 'SSH_CLIENT': '172.20.10.3 61432 22', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/raspberry/.vscode-server/cli/servers/Stable-c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/server/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/raspberry/.vscode-server/cli/servers/Stable-c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/raspberry', 'VSCODE_RECONNECTION_GRACE_TIME': '10800000', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-15ffb4b9-391f-4e1d-83ed-63d9f8a1ff41.sock', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'cat', 'LC_CTYPE': 'C.UTF-8', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': '', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'humble', 'LOGNAME': 'raspberry', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'RUST_LOG': 'warn', 'TERM': 'dumb', 'XDG_SESSION_ID': '4', 'VSCODE_CLI_REQUIRE_TOKEN': '516554c4-b8f7-442e-b413-7b80a0236ded', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/raspberry/.codex/tmp/arg0/codex-arg0LtyPRZ:/home/raspberry/.vscode-server/cli/servers/Stable-c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/raspberry/.vscode-server/extensions/openai.chatgpt-0.4.76-linux-arm64/bin/linux-aarch64', 'VSCODE_AGENT_FOLDER': '/home/raspberry/.vscode-server', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'en_US.UTF-8', 'GH_PAGER': 'cat', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CODEX_THREAD_ID': '019c7a70-76d1-7ad2-b539-0e0bac73d263', 'GIT_PAGER': 'cat', 'PWD': '/home/raspberry/Auv_ws/build/serial_bridge', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.3 61432 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/raspberry/Auv_ws/build/serial_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/serial_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.608965] (-) TimerEvent: {}
+[2.709347] (-) TimerEvent: {}
+[2.809717] (-) TimerEvent: {}
+[2.910158] (-) TimerEvent: {}
+[3.010543] (-) TimerEvent: {}
+[3.110892] (-) TimerEvent: {}
+[3.211236] (-) TimerEvent: {}
+[3.311634] (-) TimerEvent: {}
+[3.412052] (-) TimerEvent: {}
+[3.512402] (-) TimerEvent: {}
+[3.583246] (serial_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[3.586601] (serial_bridge) StdoutLine: {'line': b'writing ../../build/serial_bridge/serial_bridge.egg-info/PKG-INFO\n'}
+[3.587723] (serial_bridge) StdoutLine: {'line': b'writing dependency_links to ../../build/serial_bridge/serial_bridge.egg-info/dependency_links.txt\n'}
+[3.588820] (serial_bridge) StdoutLine: {'line': b'writing entry points to ../../build/serial_bridge/serial_bridge.egg-info/entry_points.txt\n'}
+[3.589762] (serial_bridge) StdoutLine: {'line': b'writing requirements to ../../build/serial_bridge/serial_bridge.egg-info/requires.txt\n'}
+[3.590933] (serial_bridge) StdoutLine: {'line': b'writing top-level names to ../../build/serial_bridge/serial_bridge.egg-info/top_level.txt\n'}
+[3.598007] (serial_bridge) StdoutLine: {'line': b"reading manifest file '../../build/serial_bridge/serial_bridge.egg-info/SOURCES.txt'\n"}
+[3.602659] (serial_bridge) StdoutLine: {'line': b"writing manifest file '../../build/serial_bridge/serial_bridge.egg-info/SOURCES.txt'\n"}
+[3.603760] (serial_bridge) StdoutLine: {'line': b'running build\n'}
+[3.606403] (serial_bridge) StdoutLine: {'line': b'running build_py\n'}
+[3.606854] (serial_bridge) StdoutLine: {'line': b'copying serial_bridge/arduino_bridge.py -> /home/raspberry/Auv_ws/build/serial_bridge/build/lib/serial_bridge\n'}
+[3.607724] (serial_bridge) StdoutLine: {'line': b'running install\n'}
+[3.608115] (serial_bridge) StdoutLine: {'line': b'running install_lib\n'}
+[3.610674] (serial_bridge) StdoutLine: {'line': b'copying /home/raspberry/Auv_ws/build/serial_bridge/build/lib/serial_bridge/arduino_bridge.py -> /home/raspberry/Auv_ws/install/serial_bridge/lib/python3.10/site-packages/serial_bridge\n'}
+[3.612545] (-) TimerEvent: {}
+[3.613609] (serial_bridge) StdoutLine: {'line': b'byte-compiling /home/raspberry/Auv_ws/install/serial_bridge/lib/python3.10/site-packages/serial_bridge/arduino_bridge.py to arduino_bridge.cpython-310.pyc\n'}
+[3.617422] (serial_bridge) StdoutLine: {'line': b'running install_data\n'}
+[3.618812] (serial_bridge) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.626784] (serial_bridge) StdoutLine: {'line': b"removing '/home/raspberry/Auv_ws/install/serial_bridge/lib/python3.10/site-packages/serial_bridge-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.628555] (serial_bridge) StdoutLine: {'line': b'Copying ../../build/serial_bridge/serial_bridge.egg-info to /home/raspberry/Auv_ws/install/serial_bridge/lib/python3.10/site-packages/serial_bridge-0.0.0-py3.10.egg-info\n'}
+[3.634326] (serial_bridge) StdoutLine: {'line': b'running install_scripts\n'}
+[3.712959] (serial_bridge) StdoutLine: {'line': b'Installing arduino_bridge script to /home/raspberry/Auv_ws/install/serial_bridge/lib/serial_bridge\n'}
+[3.713501] (-) TimerEvent: {}
+[3.714663] (serial_bridge) StdoutLine: {'line': b"writing list of installed files to '/home/raspberry/Auv_ws/build/serial_bridge/install.log'\n"}
+[3.813787] (-) TimerEvent: {}
+[3.835125] (serial_bridge) CommandEnded: {'returncode': 0}
+[3.887379] (serial_bridge) JobEnded: {'identifier': 'serial_bridge', 'rc': 0}
+[3.890194] (-) EventReactorShutdown: {}

@@ -1,0 +1,27 @@
+running develop
+Removing /home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages/auv-camera-stream.egg-link (link to .)
+running egg_info
+writing ../../build/auv_camera_stream/auv_camera_stream.egg-info/PKG-INFO
+writing dependency_links to ../../build/auv_camera_stream/auv_camera_stream.egg-info/dependency_links.txt
+writing entry points to ../../build/auv_camera_stream/auv_camera_stream.egg-info/entry_points.txt
+writing requirements to ../../build/auv_camera_stream/auv_camera_stream.egg-info/requires.txt
+writing top-level names to ../../build/auv_camera_stream/auv_camera_stream.egg-info/top_level.txt
+reading manifest file '../../build/auv_camera_stream/auv_camera_stream.egg-info/SOURCES.txt'
+writing manifest file '../../build/auv_camera_stream/auv_camera_stream.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages/auv_camera_stream
+copying /home/raspberry/Auv_ws/build/auv_camera_stream/build/lib/auv_camera_stream/__init__.py -> /home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages/auv_camera_stream
+copying /home/raspberry/Auv_ws/build/auv_camera_stream/build/lib/auv_camera_stream/stream_node.py -> /home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages/auv_camera_stream
+byte-compiling /home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages/auv_camera_stream/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages/auv_camera_stream/stream_node.py to stream_node.cpython-310.pyc
+running install_data
+copying resource/auv_camera_stream -> /home/raspberry/Auv_ws/install/auv_camera_stream/share/ament_index/resource_index/packages
+copying package.xml -> /home/raspberry/Auv_ws/install/auv_camera_stream/share/auv_camera_stream
+running install_egg_info
+Copying ../../build/auv_camera_stream/auv_camera_stream.egg-info to /home/raspberry/Auv_ws/install/auv_camera_stream/lib/python3.10/site-packages/auv_camera_stream-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_node script to /home/raspberry/Auv_ws/install/auv_camera_stream/lib/auv_camera_stream
+writing list of installed files to '/home/raspberry/Auv_ws/build/auv_camera_stream/install.log'

@@ -1,0 +1,30 @@
+running develop
+Removing /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv-control.egg-link (link to .)
+running egg_info
+writing ../../build/Auv_control/Auv_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/Auv_control/Auv_control.egg-info/dependency_links.txt
+writing entry points to ../../build/Auv_control/Auv_control.egg-info/entry_points.txt
+writing requirements to ../../build/Auv_control/Auv_control.egg-info/requires.txt
+writing top-level names to ../../build/Auv_control/Auv_control.egg-info/top_level.txt
+reading manifest file '../../build/Auv_control/Auv_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/Auv_control/Auv_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying Auv_control/heading_controller.py -> /home/raspberry/Auv_ws/build/Auv_control/build/lib/Auv_control
+running install
+running install_lib
+creating /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv_control
+copying /home/raspberry/Auv_ws/build/Auv_control/build/lib/Auv_control/__init__.py -> /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv_control
+copying /home/raspberry/Auv_ws/build/Auv_control/build/lib/Auv_control/depth_controller.py -> /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv_control
+copying /home/raspberry/Auv_ws/build/Auv_control/build/lib/Auv_control/heading_controller.py -> /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv_control
+byte-compiling /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv_control/depth_controller.py to depth_controller.cpython-310.pyc
+byte-compiling /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv_control/heading_controller.py to heading_controller.cpython-310.pyc
+running install_data
+copying resource/Auv_control -> /home/raspberry/Auv_ws/install/Auv_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/raspberry/Auv_ws/install/Auv_control/share/Auv_control
+running install_egg_info
+Copying ../../build/Auv_control/Auv_control.egg-info to /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing heading_controller script to /home/raspberry/Auv_ws/install/Auv_control/lib/Auv_control
+writing list of installed files to '/home/raspberry/Auv_ws/build/Auv_control/install.log'

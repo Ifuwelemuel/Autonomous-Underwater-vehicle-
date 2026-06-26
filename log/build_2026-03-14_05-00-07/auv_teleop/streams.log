@@ -1,0 +1,22 @@
+[7.255s] Invoking command in '/home/raspberry/Auv_ws/src/auv_teleop': PYTHONPATH=/home/raspberry/Auv_ws/build/auv_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auv_teleop build --build-base /home/raspberry/Auv_ws/build/auv_teleop/build install --record /home/raspberry/Auv_ws/build/auv_teleop/install.log --single-version-externally-managed install_data
+[8.840s] running egg_info
+[8.844s] writing ../../build/auv_teleop/auv_teleop.egg-info/PKG-INFO
+[8.845s] writing dependency_links to ../../build/auv_teleop/auv_teleop.egg-info/dependency_links.txt
+[8.847s] writing entry points to ../../build/auv_teleop/auv_teleop.egg-info/entry_points.txt
+[8.849s] writing requirements to ../../build/auv_teleop/auv_teleop.egg-info/requires.txt
+[8.850s] writing top-level names to ../../build/auv_teleop/auv_teleop.egg-info/top_level.txt
+[8.861s] reading manifest file '../../build/auv_teleop/auv_teleop.egg-info/SOURCES.txt'
+[8.866s] writing manifest file '../../build/auv_teleop/auv_teleop.egg-info/SOURCES.txt'
+[8.867s] running build
+[8.867s] running build_py
+[8.869s] running install
+[8.871s] running install_lib
+[8.880s] running install_data
+[8.881s] running install_egg_info
+[8.895s] removing '/home/raspberry/Auv_ws/install/auv_teleop/lib/python3.10/site-packages/auv_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+[8.899s] Copying ../../build/auv_teleop/auv_teleop.egg-info to /home/raspberry/Auv_ws/install/auv_teleop/lib/python3.10/site-packages/auv_teleop-0.0.0-py3.10.egg-info
+[8.915s] running install_scripts
+[9.155s] Installing teleop_xbox_node script to /home/raspberry/Auv_ws/install/auv_teleop/lib/auv_teleop
+[9.160s] Installing xbox_node script to /home/raspberry/Auv_ws/install/auv_teleop/lib/auv_teleop
+[9.163s] writing list of installed files to '/home/raspberry/Auv_ws/build/auv_teleop/install.log'
+[9.390s] Invoked command in '/home/raspberry/Auv_ws/src/auv_teleop' returned '0': PYTHONPATH=/home/raspberry/Auv_ws/build/auv_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auv_teleop build --build-base /home/raspberry/Auv_ws/build/auv_teleop/build install --record /home/raspberry/Auv_ws/build/auv_teleop/install.log --single-version-externally-managed install_data

@@ -1,0 +1,34 @@
+[5.703s] Invoking command in '/home/raspberry/Auv_ws/build/Auv_control': PYTHONPATH=/home/raspberry/Auv_ws/build/Auv_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/raspberry/Auv_ws/build/Auv_control/build
+[7.029s] running develop
+[7.845s] Removing /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv-control.egg-link (link to .)
+[8.135s] Invoked command in '/home/raspberry/Auv_ws/build/Auv_control' returned '0': PYTHONPATH=/home/raspberry/Auv_ws/build/Auv_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/raspberry/Auv_ws/build/Auv_control/build
+[8.149s] Invoking command in '/home/raspberry/Auv_ws/src/Auv_control': PYTHONPATH=/home/raspberry/Auv_ws/build/Auv_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Auv_control build --build-base /home/raspberry/Auv_ws/build/Auv_control/build install --record /home/raspberry/Auv_ws/build/Auv_control/install.log --single-version-externally-managed install_data --force
+[9.386s] running egg_info
+[9.389s] writing ../../build/Auv_control/Auv_control.egg-info/PKG-INFO
+[9.391s] writing dependency_links to ../../build/Auv_control/Auv_control.egg-info/dependency_links.txt
+[9.392s] writing entry points to ../../build/Auv_control/Auv_control.egg-info/entry_points.txt
+[9.394s] writing requirements to ../../build/Auv_control/Auv_control.egg-info/requires.txt
+[9.396s] writing top-level names to ../../build/Auv_control/Auv_control.egg-info/top_level.txt
+[9.407s] reading manifest file '../../build/Auv_control/Auv_control.egg-info/SOURCES.txt'
+[9.458s] writing manifest file '../../build/Auv_control/Auv_control.egg-info/SOURCES.txt'
+[9.460s] running build
+[9.460s] running build_py
+[9.465s] copying Auv_control/heading_controller.py -> /home/raspberry/Auv_ws/build/Auv_control/build/lib/Auv_control
+[9.468s] running install
+[9.469s] running install_lib
+[9.473s] creating /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv_control
+[9.474s] copying /home/raspberry/Auv_ws/build/Auv_control/build/lib/Auv_control/__init__.py -> /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv_control
+[9.475s] copying /home/raspberry/Auv_ws/build/Auv_control/build/lib/Auv_control/depth_controller.py -> /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv_control
+[9.475s] copying /home/raspberry/Auv_ws/build/Auv_control/build/lib/Auv_control/heading_controller.py -> /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv_control
+[9.478s] byte-compiling /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv_control/__init__.py to __init__.cpython-310.pyc
+[9.479s] byte-compiling /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv_control/depth_controller.py to depth_controller.cpython-310.pyc
+[9.481s] byte-compiling /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv_control/heading_controller.py to heading_controller.cpython-310.pyc
+[9.485s] running install_data
+[9.487s] copying resource/Auv_control -> /home/raspberry/Auv_ws/install/Auv_control/share/ament_index/resource_index/packages
+[9.490s] copying package.xml -> /home/raspberry/Auv_ws/install/Auv_control/share/Auv_control
+[9.492s] running install_egg_info
+[9.501s] Copying ../../build/Auv_control/Auv_control.egg-info to /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv_control-0.0.0-py3.10.egg-info
+[9.509s] running install_scripts
+[9.624s] Installing heading_controller script to /home/raspberry/Auv_ws/install/Auv_control/lib/Auv_control
+[9.628s] writing list of installed files to '/home/raspberry/Auv_ws/build/Auv_control/install.log'
+[9.922s] Invoked command in '/home/raspberry/Auv_ws/src/Auv_control' returned '0': PYTHONPATH=/home/raspberry/Auv_ws/build/Auv_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Auv_control build --build-base /home/raspberry/Auv_ws/build/Auv_control/build install --record /home/raspberry/Auv_ws/build/Auv_control/install.log --single-version-externally-managed install_data --force

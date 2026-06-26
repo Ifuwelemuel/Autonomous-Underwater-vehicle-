@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing auv_teleop.egg-info/PKG-INFO
+writing dependency_links to auv_teleop.egg-info/dependency_links.txt
+writing entry points to auv_teleop.egg-info/entry_points.txt
+writing requirements to auv_teleop.egg-info/requires.txt
+writing top-level names to auv_teleop.egg-info/top_level.txt
+reading manifest file 'auv_teleop.egg-info/SOURCES.txt'
+writing manifest file 'auv_teleop.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/raspberry/Auv_ws/install/auv_teleop/lib/python3.10/site-packages/auv-teleop.egg-link (link to .)
+Installing teleop_xbox_node script to /home/raspberry/Auv_ws/install/auv_teleop/lib/auv_teleop
+
+Installed /home/raspberry/Auv_ws/build/auv_teleop
+running symlink_data
+symbolically linking /home/raspberry/Auv_ws/build/auv_teleop/resource/auv_teleop -> /home/raspberry/Auv_ws/install/auv_teleop/share/ament_index/resource_index/packages
+symbolically linking /home/raspberry/Auv_ws/build/auv_teleop/package.xml -> /home/raspberry/Auv_ws/install/auv_teleop/share/auv_teleop

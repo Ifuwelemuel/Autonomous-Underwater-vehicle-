@@ -1,0 +1,5 @@
+  File "/home/raspberry/Auv_ws/install/auv_teleop/lib/python3.10/site-packages/auv_teleop/xbox_node.py", line 80
+    """Converts Euler angles to a ROS Geometry Quaternion."""
+       ^^^^^^^^
+SyntaxError: invalid syntax
+

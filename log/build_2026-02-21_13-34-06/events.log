@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.001878] (Auv_control) JobQueued: {'identifier': 'Auv_control', 'dependencies': OrderedDict()}
+[0.002773] (Auv_teleop) JobQueued: {'identifier': 'Auv_teleop', 'dependencies': OrderedDict()}
+[0.003356] (serial_bridge) JobQueued: {'identifier': 'serial_bridge', 'dependencies': OrderedDict()}
+[0.003598] (Auv_control) JobStarted: {'identifier': 'Auv_control'}
+[0.041693] (Auv_teleop) JobStarted: {'identifier': 'Auv_teleop'}
+[0.069253] (serial_bridge) JobStarted: {'identifier': 'serial_bridge'}
+[0.099412] (-) TimerEvent: {}
+[0.200477] (-) TimerEvent: {}
+[0.301259] (-) TimerEvent: {}
+[0.402135] (-) TimerEvent: {}
+[0.502980] (-) TimerEvent: {}
+[0.603699] (-) TimerEvent: {}
+[0.704425] (-) TimerEvent: {}
+[0.805175] (-) TimerEvent: {}
+[0.905913] (-) TimerEvent: {}
+[1.006672] (-) TimerEvent: {}
+[1.108199] (-) TimerEvent: {}
+[1.209033] (-) TimerEvent: {}
+[1.310090] (-) TimerEvent: {}
+[1.411062] (-) TimerEvent: {}
+[1.512206] (-) TimerEvent: {}
+[1.612994] (-) TimerEvent: {}
+[1.713802] (-) TimerEvent: {}
+[1.814537] (-) TimerEvent: {}
+[1.916340] (-) TimerEvent: {}
+[2.017268] (-) TimerEvent: {}
+[2.118045] (-) TimerEvent: {}
+[2.218939] (-) TimerEvent: {}
+[2.319777] (-) TimerEvent: {}
+[2.421141] (-) TimerEvent: {}
+[2.521887] (-) TimerEvent: {}
+[2.622635] (-) TimerEvent: {}
+[2.723361] (-) TimerEvent: {}
+[2.824083] (-) TimerEvent: {}
+[2.924949] (-) TimerEvent: {}
+[3.025730] (-) TimerEvent: {}
+[3.126564] (-) TimerEvent: {}
+[3.227303] (-) TimerEvent: {}
+[3.328006] (-) TimerEvent: {}
+[3.428879] (-) TimerEvent: {}
+[3.529902] (-) TimerEvent: {}
+[3.631263] (-) TimerEvent: {}
+[3.732564] (-) TimerEvent: {}
+[3.833847] (-) TimerEvent: {}
+[3.935882] (-) TimerEvent: {}
+[4.038111] (-) TimerEvent: {}
+[4.139881] (-) TimerEvent: {}
+[4.241843] (-) TimerEvent: {}
+[4.343958] (-) TimerEvent: {}
+[4.445919] (-) TimerEvent: {}
+[4.547983] (-) TimerEvent: {}
+[4.650091] (-) TimerEvent: {}
+[4.752671] (-) TimerEvent: {}
+[4.854635] (-) TimerEvent: {}
+[4.957332] (-) TimerEvent: {}
+[5.059384] (-) TimerEvent: {}
+[5.160587] (-) TimerEvent: {}
+[5.262186] (-) TimerEvent: {}
+[5.363732] (-) TimerEvent: {}
+[5.466639] (-) TimerEvent: {}
+[5.543906] (Auv_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/raspberry/Auv_ws/build/Auv_teleop/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/raspberry/Auv_ws/build/Auv_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'raspberry', 'SSH_CLIENT': '172.20.10.3 51672 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/raspberry', 'OLDPWD': '/home/raspberry', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/raspberry/Auv_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'raspberry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/raspberry/Auv_ws/install/serial_bridge:/home/raspberry/Auv_ws/install/Auv_teleop:/home/raspberry/Auv_ws/install/Auv_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/raspberry/Auv_ws/build/Auv_teleop', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.3 51672 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/raspberry/Auv_ws/build/Auv_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/serial_bridge/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[5.566816] (-) TimerEvent: {}
+[5.580868] (Auv_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/raspberry/Auv_ws/build/Auv_control/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/raspberry/Auv_ws/build/Auv_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'raspberry', 'SSH_CLIENT': '172.20.10.3 51672 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/raspberry', 'OLDPWD': '/home/raspberry', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/raspberry/Auv_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'raspberry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/raspberry/Auv_ws/install/serial_bridge:/home/raspberry/Auv_ws/install/Auv_teleop:/home/raspberry/Auv_ws/install/Auv_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/raspberry/Auv_ws/build/Auv_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.3 51672 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/raspberry/Auv_ws/build/Auv_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/serial_bridge/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[5.667045] (-) TimerEvent: {}
+[5.768977] (-) TimerEvent: {}
+[5.870724] (-) TimerEvent: {}
+[5.972792] (-) TimerEvent: {}
+[5.977227] (serial_bridge) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/raspberry/Auv_ws/build/serial_bridge/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/raspberry/Auv_ws/build/serial_bridge', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'raspberry', 'SSH_CLIENT': '172.20.10.3 51672 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/raspberry', 'OLDPWD': '/home/raspberry', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/raspberry/Auv_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'raspberry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/raspberry/Auv_ws/install/serial_bridge:/home/raspberry/Auv_ws/install/Auv_teleop:/home/raspberry/Auv_ws/install/Auv_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/raspberry/Auv_ws/build/serial_bridge', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.3 51672 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/raspberry/Auv_ws/build/serial_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/serial_bridge/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/serial_bridge/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages:/home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[6.072979] (-) TimerEvent: {}
+[6.175031] (-) TimerEvent: {}
+[6.275852] (-) TimerEvent: {}
+[6.376664] (-) TimerEvent: {}
+[6.478856] (-) TimerEvent: {}
+[6.580717] (-) TimerEvent: {}
+[6.682459] (-) TimerEvent: {}
+[6.784240] (-) TimerEvent: {}
+[6.887268] (-) TimerEvent: {}
+[6.989073] (-) TimerEvent: {}
+[7.091138] (-) TimerEvent: {}
+[7.095936] (Auv_teleop) StdoutLine: {'line': b'running develop\n'}
+[7.191347] (-) TimerEvent: {}
+[7.267045] (Auv_control) StdoutLine: {'line': b'running develop\n'}
+[7.291549] (-) TimerEvent: {}
+[7.393279] (-) TimerEvent: {}
+[7.484713] (serial_bridge) StdoutLine: {'line': b'running develop\n'}
+[7.493363] (-) TimerEvent: {}
+[7.595518] (-) TimerEvent: {}
+[7.697599] (-) TimerEvent: {}
+[7.799306] (-) TimerEvent: {}
+[7.900997] (-) TimerEvent: {}
+[8.003590] (-) TimerEvent: {}
+[8.106138] (-) TimerEvent: {}
+[8.158748] (Auv_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[8.159598] (Auv_teleop) StdoutLine: {'line': b'writing Auv_teleop.egg-info/PKG-INFO\n'}
+[8.161485] (Auv_teleop) StdoutLine: {'line': b'writing dependency_links to Auv_teleop.egg-info/dependency_links.txt\n'}
+[8.162429] (Auv_teleop) StdoutLine: {'line': b'writing entry points to Auv_teleop.egg-info/entry_points.txt\n'}
+[8.163384] (Auv_teleop) StdoutLine: {'line': b'writing requirements to Auv_teleop.egg-info/requires.txt\n'}
+[8.164848] (Auv_teleop) StdoutLine: {'line': b'writing top-level names to Auv_teleop.egg-info/top_level.txt\n'}
+[8.174641] (Auv_teleop) StdoutLine: {'line': b"reading manifest file 'Auv_teleop.egg-info/SOURCES.txt'\n"}
+[8.178983] (Auv_teleop) StdoutLine: {'line': b"writing manifest file 'Auv_teleop.egg-info/SOURCES.txt'\n"}
+[8.186321] (Auv_teleop) StdoutLine: {'line': b'running build_ext\n'}
+[8.187587] (Auv_teleop) StdoutLine: {'line': b'Creating /home/raspberry/Auv_ws/install/Auv_teleop/lib/python3.10/site-packages/Auv-teleop.egg-link (link to .)\n'}
+[8.196359] (Auv_teleop) StdoutLine: {'line': b'Installing teleop_xbox_node script to /home/raspberry/Auv_ws/install/Auv_teleop/lib/Auv_teleop\n'}
+[8.197306] (Auv_teleop) StdoutLine: {'line': b'\n'}
+[8.200381] (Auv_teleop) StdoutLine: {'line': b'Installed /home/raspberry/Auv_ws/build/Auv_teleop\n'}
+[8.201579] (Auv_teleop) StdoutLine: {'line': b'running symlink_data\n'}
+[8.202734] (Auv_teleop) StdoutLine: {'line': b'symbolically linking /home/raspberry/Auv_ws/build/Auv_teleop/resource/Auv_teleop -> /home/raspberry/Auv_ws/install/Auv_teleop/share/ament_index/resource_index/packages\n'}
+[8.203829] (Auv_teleop) StdoutLine: {'line': b'symbolically linking /home/raspberry/Auv_ws/build/Auv_teleop/package.xml -> /home/raspberry/Auv_ws/install/Auv_teleop/share/Auv_teleop\n'}
+[8.206760] (-) TimerEvent: {}
+[8.308504] (-) TimerEvent: {}
+[8.409825] (-) TimerEvent: {}
+[8.425489] (Auv_teleop) CommandEnded: {'returncode': 0}
+[8.494546] (Auv_teleop) JobEnded: {'identifier': 'Auv_teleop', 'rc': 0}
+[8.510099] (Auv_control) StdoutLine: {'line': b'running egg_info\n'}
+[8.510717] (-) TimerEvent: {}
+[8.511304] (Auv_control) StdoutLine: {'line': b'writing Auv_control.egg-info/PKG-INFO\n'}
+[8.512475] (Auv_control) StdoutLine: {'line': b'writing dependency_links to Auv_control.egg-info/dependency_links.txt\n'}
+[8.513623] (Auv_control) StdoutLine: {'line': b'writing entry points to Auv_control.egg-info/entry_points.txt\n'}
+[8.514910] (Auv_control) StdoutLine: {'line': b'writing requirements to Auv_control.egg-info/requires.txt\n'}
+[8.516234] (Auv_control) StdoutLine: {'line': b'writing top-level names to Auv_control.egg-info/top_level.txt\n'}
+[8.525251] (Auv_control) StdoutLine: {'line': b"reading manifest file 'Auv_control.egg-info/SOURCES.txt'\n"}
+[8.528737] (Auv_control) StdoutLine: {'line': b"writing manifest file 'Auv_control.egg-info/SOURCES.txt'\n"}
+[8.535015] (Auv_control) StdoutLine: {'line': b'running build_ext\n'}
+[8.536109] (Auv_control) StdoutLine: {'line': b'Creating /home/raspberry/Auv_ws/install/Auv_control/lib/python3.10/site-packages/Auv-control.egg-link (link to .)\n'}
+[8.543182] (Auv_control) StdoutLine: {'line': b'Installing heading_controller script to /home/raspberry/Auv_ws/install/Auv_control/lib/Auv_control\n'}
+[8.544023] (Auv_control) StdoutLine: {'line': b'\n'}
+[8.545029] (Auv_control) StdoutLine: {'line': b'Installed /home/raspberry/Auv_ws/build/Auv_control\n'}
+[8.545841] (Auv_control) StdoutLine: {'line': b'running symlink_data\n'}
+[8.547376] (Auv_control) StdoutLine: {'line': b'symbolically linking /home/raspberry/Auv_ws/build/Auv_control/resource/Auv_control -> /home/raspberry/Auv_ws/install/Auv_control/share/ament_index/resource_index/packages\n'}
+[8.551078] (Auv_control) StdoutLine: {'line': b'symbolically linking /home/raspberry/Auv_ws/build/Auv_control/package.xml -> /home/raspberry/Auv_ws/install/Auv_control/share/Auv_control\n'}
+[8.610965] (-) TimerEvent: {}
+[8.690555] (Auv_control) CommandEnded: {'returncode': 0}
+[8.711240] (-) TimerEvent: {}
+[8.737621] (serial_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[8.738720] (serial_bridge) StdoutLine: {'line': b'writing serial_bridge.egg-info/PKG-INFO\n'}
+[8.739299] (serial_bridge) StdoutLine: {'line': b'writing dependency_links to serial_bridge.egg-info/dependency_links.txt\n'}
+[8.740959] (serial_bridge) StdoutLine: {'line': b'writing entry points to serial_bridge.egg-info/entry_points.txt\n'}
+[8.741810] (serial_bridge) StdoutLine: {'line': b'writing requirements to serial_bridge.egg-info/requires.txt\n'}
+[8.742521] (serial_bridge) StdoutLine: {'line': b'writing top-level names to serial_bridge.egg-info/top_level.txt\n'}
+[8.744906] (Auv_control) JobEnded: {'identifier': 'Auv_control', 'rc': 0}
+[8.750092] (serial_bridge) StdoutLine: {'line': b"reading manifest file 'serial_bridge.egg-info/SOURCES.txt'\n"}
+[8.754096] (serial_bridge) StdoutLine: {'line': b"writing manifest file 'serial_bridge.egg-info/SOURCES.txt'\n"}
+[8.760715] (serial_bridge) StdoutLine: {'line': b'running build_ext\n'}
+[8.761609] (serial_bridge) StdoutLine: {'line': b'Creating /home/raspberry/Auv_ws/install/serial_bridge/lib/python3.10/site-packages/serial-bridge.egg-link (link to .)\n'}
+[8.765418] (serial_bridge) StdoutLine: {'line': b'Installing arduino_bridge script to /home/raspberry/Auv_ws/install/serial_bridge/lib/serial_bridge\n'}
+[8.766837] (serial_bridge) StdoutLine: {'line': b'\n'}
+[8.767528] (serial_bridge) StdoutLine: {'line': b'Installed /home/raspberry/Auv_ws/build/serial_bridge\n'}
+[8.768094] (serial_bridge) StdoutLine: {'line': b'running symlink_data\n'}
+[8.768530] (serial_bridge) StdoutLine: {'line': b'symbolically linking /home/raspberry/Auv_ws/build/serial_bridge/resource/serial_bridge -> /home/raspberry/Auv_ws/install/serial_bridge/share/ament_index/resource_index/packages\n'}
+[8.769202] (serial_bridge) StdoutLine: {'line': b'symbolically linking /home/raspberry/Auv_ws/build/serial_bridge/package.xml -> /home/raspberry/Auv_ws/install/serial_bridge/share/serial_bridge\n'}
+[8.811570] (-) TimerEvent: {}
+[8.897639] (serial_bridge) CommandEnded: {'returncode': 0}
+[8.911718] (-) TimerEvent: {}
+[8.938470] (serial_bridge) JobEnded: {'identifier': 'serial_bridge', 'rc': 0}
+[8.942052] (-) EventReactorShutdown: {}

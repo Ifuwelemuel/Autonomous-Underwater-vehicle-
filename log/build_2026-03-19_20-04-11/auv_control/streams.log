@@ -1,0 +1,23 @@
+[8.365s] Invoking command in '/home/raspberry/Auv_ws/src/auv_control': PYTHONPATH=/home/raspberry/Auv_ws/build/auv_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auv_control build --build-base /home/raspberry/Auv_ws/build/auv_control/build install --record /home/raspberry/Auv_ws/build/auv_control/install.log --single-version-externally-managed install_data
+[10.090s] running egg_info
+[10.094s] writing ../../build/auv_control/auv_control.egg-info/PKG-INFO
+[10.095s] writing dependency_links to ../../build/auv_control/auv_control.egg-info/dependency_links.txt
+[10.097s] writing entry points to ../../build/auv_control/auv_control.egg-info/entry_points.txt
+[10.098s] writing requirements to ../../build/auv_control/auv_control.egg-info/requires.txt
+[10.099s] writing top-level names to ../../build/auv_control/auv_control.egg-info/top_level.txt
+[10.109s] reading manifest file '../../build/auv_control/auv_control.egg-info/SOURCES.txt'
+[10.114s] writing manifest file '../../build/auv_control/auv_control.egg-info/SOURCES.txt'
+[10.114s] running build
+[10.115s] running build_py
+[10.117s] running install
+[10.119s] running install_lib
+[10.127s] byte-compiling /home/raspberry/Auv_ws/install/auv_control/lib/python3.10/site-packages/auv_control/path_planning.py to path_planning.cpython-310.pyc
+[10.130s] Sorry: IndentationError: unindent does not match any outer indentation level (path_planning.py, line 150)
+[10.131s] running install_data
+[10.132s] running install_egg_info
+[10.140s] removing '/home/raspberry/Auv_ws/install/auv_control/lib/python3.10/site-packages/auv_control-0.0.0-py3.10.egg-info' (and everything under it)
+[10.143s] Copying ../../build/auv_control/auv_control.egg-info to /home/raspberry/Auv_ws/install/auv_control/lib/python3.10/site-packages/auv_control-0.0.0-py3.10.egg-info
+[10.152s] running install_scripts
+[10.256s] Installing heading_controller script to /home/raspberry/Auv_ws/install/auv_control/lib/auv_control
+[10.258s] writing list of installed files to '/home/raspberry/Auv_ws/build/auv_control/install.log'
+[10.423s] Invoked command in '/home/raspberry/Auv_ws/src/auv_control' returned '0': PYTHONPATH=/home/raspberry/Auv_ws/build/auv_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auv_control build --build-base /home/raspberry/Auv_ws/build/auv_control/build install --record /home/raspberry/Auv_ws/build/auv_control/install.log --single-version-externally-managed install_data

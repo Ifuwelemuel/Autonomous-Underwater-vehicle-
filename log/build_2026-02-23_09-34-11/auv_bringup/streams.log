@@ -1,0 +1,21 @@
+[7.504s] Invoking command in '/home/raspberry/Auv_ws/src/auv_bringup': PYTHONPATH=/home/raspberry/Auv_ws/build/auv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auv_bringup build --build-base /home/raspberry/Auv_ws/build/auv_bringup/build install --record /home/raspberry/Auv_ws/build/auv_bringup/install.log --single-version-externally-managed install_data
+[9.043s] running egg_info
+[9.049s] writing ../../build/auv_bringup/auv_bringup.egg-info/PKG-INFO
+[9.052s] writing dependency_links to ../../build/auv_bringup/auv_bringup.egg-info/dependency_links.txt
+[9.053s] writing entry points to ../../build/auv_bringup/auv_bringup.egg-info/entry_points.txt
+[9.055s] writing requirements to ../../build/auv_bringup/auv_bringup.egg-info/requires.txt
+[9.057s] writing top-level names to ../../build/auv_bringup/auv_bringup.egg-info/top_level.txt
+[9.066s] reading manifest file '../../build/auv_bringup/auv_bringup.egg-info/SOURCES.txt'
+[9.071s] writing manifest file '../../build/auv_bringup/auv_bringup.egg-info/SOURCES.txt'
+[9.072s] running build
+[9.073s] running build_py
+[9.074s] running install
+[9.076s] running install_lib
+[9.083s] running install_data
+[9.084s] running install_egg_info
+[9.093s] removing '/home/raspberry/Auv_ws/install/auv_bringup/lib/python3.10/site-packages/auv_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[9.097s] Copying ../../build/auv_bringup/auv_bringup.egg-info to /home/raspberry/Auv_ws/install/auv_bringup/lib/python3.10/site-packages/auv_bringup-0.0.0-py3.10.egg-info
+[9.103s] running install_scripts
+[9.216s] Installing launchphase1 script to /home/raspberry/Auv_ws/install/auv_bringup/lib/auv_bringup
+[9.219s] writing list of installed files to '/home/raspberry/Auv_ws/build/auv_bringup/install.log'
+[9.440s] Invoked command in '/home/raspberry/Auv_ws/src/auv_bringup' returned '0': PYTHONPATH=/home/raspberry/Auv_ws/build/auv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raspberry/Auv_ws/install/auv_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auv_bringup build --build-base /home/raspberry/Auv_ws/build/auv_bringup/build install --record /home/raspberry/Auv_ws/build/auv_bringup/install.log --single-version-externally-managed install_data
